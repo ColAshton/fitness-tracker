@@ -1,0 +1,23 @@
+.newTraining {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+mat-card {
+  width: 400px;
+  text-align: center;
+}
+
+mat-card-header,
+mat-card-title,
+mat-card-content,
+mat-card-actions {
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  mat-card {
+    width: 100%;
+  }
+}

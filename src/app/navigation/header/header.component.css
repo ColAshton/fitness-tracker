@@ -1,0 +1,37 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover,
+a:active {
+  color: lightgray;
+}
+
+span.toolbarSpacer {
+  flex: 1 1 auto;
+}
+
+ul.navigationItems {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 10px;
+}
+
+button.sidenavToggleIcon {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  mat-toolbar {
+    padding: 0;
+  }
+  ul.navigationItems {
+    display: none;
+  }
+  button.sidenavToggleIcon {
+    display: block;
+  }
+}

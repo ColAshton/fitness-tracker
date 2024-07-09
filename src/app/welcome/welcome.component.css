@@ -1,0 +1,14 @@
+div.welcome {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  div.welcome {
+    flex-direction: column;
+  }
+}
